@@ -88,7 +88,7 @@ def page_shortest_path():
     if st.button("Find Shortest Path"):
         path, cost = dijkstra(graph, weights, start, end)
         if path:
-            st.success(f"Path: {' → '.join(path)} | Cost: {cost} km")
+            st.success(f"Path: {' → '.join(path)} | Total Distance: {cost} km")
         else:
             st.error("No path found!")
 
