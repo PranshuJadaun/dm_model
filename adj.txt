@@ -1,0 +1,7 @@
+California(Texas, Florida)
+Texas(California, Florida)
+Florida(Texas, NewYork)
+NewYork(California, Florida)
+Georgia(California, Texas)
+gangu(Texas,Florida)
+Agra(Texas,Ganga)
